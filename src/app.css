@@ -19,3 +19,7 @@ body{
   font-weight: 500;
   font-style: normal;
 }
+
+[data-theme='black'] footer nav svg path{
+  fill:white;
+}
