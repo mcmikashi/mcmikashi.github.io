@@ -13,3 +13,11 @@
 	</main>
 	<Footer />
 </div>
+
+
+<style lang="postcss">
+  @reference "tailwindcss";
+  :global(section) {
+    @apply py-10 my-10;
+  }
+</style>
