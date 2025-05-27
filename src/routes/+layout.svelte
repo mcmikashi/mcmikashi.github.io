@@ -18,6 +18,7 @@
 <style lang="postcss">
   @reference "tailwindcss";
   :global(section) {
-    @apply py-10 my-10;
+    @apply my-auto;
+	min-height: 50vh;
   }
 </style>
