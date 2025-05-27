@@ -1,9 +1,10 @@
 <script>
+	import { assets } from '$app/paths';
 	import MenuList from './MenuList.svelte';
 	import SwapTheme from './SwapTheme.svelte';
 </script>
 
-<header>
+<header id="header">
 	<div class="navbar bg-base-100 shadow-sm">
 		<div class="navbar-start">
 			<div class="dropdown">
@@ -31,7 +32,14 @@
 					<MenuList />
 				</ul>
 			</div>
-			<a class="btn btn-ghost text-xl">Mickaël Anicette</a>
+			<a class="btn btn-ghost text-lg" href="#header">
+				<div class="avatar">
+					<div class="w-10 rounded-full">
+						<img src={`${assets}/logo_mickael_anicette.png`} alt="logo de mickaël anicette" />
+					</div>
+				</div>
+				Mickaël Anicette
+			</a>
 		</div>
 		<div class="navbar-center hidden lg:flex">
 			<ul class="menu menu-horizontal px-1">
@@ -43,3 +51,13 @@
 		</div>
 	</div>
 </header>
+
+<style>
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+  header .navbar-end {
+    width: 25%;
+  }
+}
+</style>
