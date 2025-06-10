@@ -2,7 +2,7 @@
   import { page } from '$app/stores';
 </script>
 
-<div class="mx-auto max-w-page">
+<div class="w-full h-screen flex flex-col items-center">
   <h1 class="text-4xl font-bold mt-8">Oups !</h1>
   <p class="py-4 text-xl">
     {#if $page.status === 404}
