@@ -41,10 +41,11 @@ jobs:
       - name: Build with Svelkit
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
-          PUBLIC_EMAILJS_SERVER_ID: ${{ env.PUBLIC_EMAILJS_SERVER_ID }}
-          PUBLIC_EMAILJS_TEMPLATE_ID: ${{ env.PUBLIC_EMAILJS_TEMPLATE_ID }}
-          PUBLIC_EMAILJS_PUBLIC_KEY: ${{ env.PUBLIC_EMAILJS_PUBLIC_KEY }}
-        run: npm run build
+          PUBLIC_EMAILJS_SERVER_ID: ${{ secrets.PUBLIC_EMAILJS_SERVER_ID }}
+          PUBLIC_EMAILJS_TEMPLATE_ID: ${{ secrets.PUBLIC_EMAILJS_TEMPLATE_ID }}
+          PUBLIC_EMAILJS_PUBLIC_KEY: ${{ secrets.PUBLIC_EMAILJS_PUBLIC_KEY }}
+        run: | 
+          npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
