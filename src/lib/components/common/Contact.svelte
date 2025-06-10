@@ -33,8 +33,8 @@
 					throw new Error('Unknow error');
 				}
 			},
-			// eslint-disable-next-line @typescript-eslint/no-unused-vars
 			function (error) {
+				console.error(error);
 				formResult = false;
 			}
 		);
