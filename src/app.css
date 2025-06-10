@@ -4,20 +4,22 @@
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
 @plugin "daisyui" {
-  themes: lofi --default, black --prefersdark
+	themes:
+		lofi --default,
+		black --prefersdark;
 }
 
-:is(h1,h2,h3,h4,h5){
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
+:is(h1, h2, h3, h4, h5) {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
 }
 
-body{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+body {
+	font-family: 'Inter', sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
 }
 
-[data-theme='black'] footer nav svg path{
-  fill:white;
+[data-theme='black'] footer nav svg path {
+	fill: white;
 }

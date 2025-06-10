@@ -1,7 +1,5 @@
 <script>
-	import { assets } from "$app/paths";
-
-
+	import { assets } from '$app/paths';
 </script>
 
 <section class="hero" id="hero">
@@ -12,7 +10,9 @@
 				Développeur full-stack avec plus de 6 ans d'expérience, je conçois des applications web et
 				mobiles sur mesure en combinant performance, robustesse et qualité de code.
 			</p>
-			<a class="btn btn-xl btn-secondary" download href={`${assets}/MickaelAnicetteCV.pdf`}>Télécharger mon CV</a>
+			<a class="btn btn-xl btn-secondary" download href={`${assets}/MickaelAnicetteCV.pdf`}>
+				Télécharger mon CV
+			</a>
 		</div>
 	</div>
 </section>

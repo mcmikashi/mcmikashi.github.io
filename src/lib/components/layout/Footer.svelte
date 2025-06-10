@@ -5,12 +5,12 @@
 	import Twitter from '../common/icons/Twitter.svelte';
 </script>
 
-<footer class="bg-base-100 flex flex-row justify-between items-center px-10 py-4 shadow-sm">
+<footer class="bg-base-100 flex flex-row items-center justify-between px-10 py-4 shadow-sm">
 	<aside class="flex flex-row gap-2">
 		<Copyright />
 		<p>{new Date().getFullYear()} Votre Mickaël Anicette. Tous droits réservés.</p>
 	</aside>
-	<div class="flex flex-row gap-4 items-center">
+	<div class="flex flex-row items-center gap-4">
 		<h6 class="footer-title mb-0">Réseau sociaux</h6>
 		<nav>
 			<div class="grid grid-flow-col gap-8">
@@ -36,7 +36,7 @@
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					<Twitter/>
+					<Twitter />
 				</a>
 			</div>
 		</nav>

@@ -12,7 +12,7 @@
 	let subject = $state('');
 	let message = $state('');
 	let formResult = $state<boolean | null>(null);
-    
+
 	function onsubmit(event: SubmitEvent) {
 		event.preventDefault();
 		var templateParams = {
@@ -25,11 +25,16 @@
 			publicKey: PUBLIC_EMAILJS_PUBLIC_KEY
 		}).then(
 			function (response) {
-				formResult = true;
-				const form = event.target as HTMLFormElement;
-				form.reset();
+				if (response.status === 200 && response.text === 'OK') {
+					formResult = true;
+					const form = event.target as HTMLFormElement;
+					form.reset();
+				} else {
+					throw new Error('Unknow error');
+				}
 			},
-			function (err) {
+			// eslint-disable-next-line @typescript-eslint/no-unused-vars
+			function (error) {
 				formResult = false;
 			}
 		);

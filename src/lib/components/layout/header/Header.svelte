@@ -53,11 +53,9 @@
 </header>
 
 <style>
-
-
-@media only screen and (min-width: 1024px) and (max-width: 1100px) {
-  header .navbar-end {
-    width: 25%;
-  }
-}
+	@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+		header .navbar-end {
+			width: 25%;
+		}
+	}
 </style>

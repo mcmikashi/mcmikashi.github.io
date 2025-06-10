@@ -14,11 +14,10 @@
 	<Footer />
 </div>
 
-
 <style lang="postcss">
-  @reference "tailwindcss";
-  :global(section) {
-    @apply my-auto;
-	min-height: 50vh;
-  }
+	@reference "tailwindcss";
+	:global(section) {
+		@apply my-auto;
+		min-height: 50vh;
+	}
 </style>

@@ -44,7 +44,7 @@
 							BTS SIO (Service Informatique aux Organisations) OPTION SLAM (solutions logicielles et
 							applications métiers)
 						</div>
-						<p>BAC PRO SEN (Système Numérique  Électronique) Mention Bien</p>
+						<p>BAC PRO SEN (Système Numérique Électronique) Mention Bien</p>
 					</div>
 				</li>
 			</ul>

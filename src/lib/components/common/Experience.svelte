@@ -5,7 +5,7 @@
 <section class="hero" id="experience">
 	<div class="hero-content text-center">
 		<div class="max-w-5/6">
-			<h3 class="text-2xl font-extrabold mb-4">Expérience professionnelle</h3>
+			<h3 class="mb-4 text-2xl font-extrabold">Expérience professionnelle</h3>
 			<ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical m-3">
 				<li>
 					<div class="timeline-middle">
