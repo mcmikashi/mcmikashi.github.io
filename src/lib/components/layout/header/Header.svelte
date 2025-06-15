@@ -23,7 +23,7 @@
 			<a class="btn btn-ghost text-lg" href="#header">
 				<div class="avatar">
 					<div class="w-10 rounded-full">
-						<img src={`${assets}/logo_mickael_anicette.png`} alt="logo de mickaël anicette" />
+						<img src={`${assets}/logo_mickael_anicette.webp`} alt="logo de mickaël anicette" />
 					</div>
 				</div>
 				Mickaël Anicette
