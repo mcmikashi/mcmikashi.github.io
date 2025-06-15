@@ -1,8 +1,8 @@
 <section class="hero bg-base-200" id="about">
 	<div class="hero-content text-center">
-		<div class="max-w-4/6">
+		<div class="lg:max-w-4/6">
 			<h3 class="mb-4 text-2xl font-extrabold">À propos</h3>
-			<p class="m-3 text-justify text-lg">
+			<p class="m-3 text-justify md:text-lg tex-base">
 				Formé au développement d'applications et fort de plusieurs expériences en freelance et en
 				entreprise, j'ai travaillé sur des projets variés allant du développement d'applications
 				métier à l'optimisation de performances sur des plateformes existantes.<br />

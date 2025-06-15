@@ -4,7 +4,7 @@
 
 <section class="hero" id="experience">
 	<div class="hero-content text-center">
-		<div class="max-w-5/6">
+		<div class="lg:max-w-4/6">
 			<h3 class="mb-4 text-2xl font-extrabold">Expérience professionnelle</h3>
 			<ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical m-3">
 				<li>
@@ -13,7 +13,7 @@
 					</div>
 					<div class="timeline-start mb-10 md:text-end">
 						<time class="font-mono italic">01-2023 à maintenant</time>
-						<div class="text-lg font-black">IMT CONCEPT - Développeur</div>
+						<div class="md:text-lg text-base font-black">IMT CONCEPT - Développeur</div>
 						<p>
 							<strong>Création d'applications sur mesure : </strong> Développement de plusieurs applications
 							répondant à des cahiers des charges et/ou à des spécifications techniques.
@@ -36,7 +36,7 @@
 					</div>
 					<div class="timeline-end md:mb-10">
 						<time class="font-mono italic">02-2022 au 04-2022</time>
-						<div class="text-lg font-black">LES MOBILITAINS - Développeur</div>
+						<div class="md:text-lg text-base font-black">LES MOBILITAINS - Développeur</div>
 						<p>
 							<strong>Django :</strong> Création d'une app permettant de recueillir les articles qui
 							mentionnent l'association avec respect de la PEP8 et création de test unitaire.
@@ -59,7 +59,7 @@
 					</div>
 					<div class="timeline-start mb-10 md:text-end">
 						<time class="font-mono italic">07-2017 au 12-2020</time>
-						<div class="text-lg font-black">FREELANCE - Développeur</div>
+						<div class="md:text-lg text-base font-black">FREELANCE - Développeur</div>
 						<p>
 							<strong>Création de site : </strong> Analyse des besoins clients, suivi de projet avec
 							les clients, mise en production des projets et - selon les cas - mise à jour et ajout de
@@ -84,7 +84,7 @@
 					</div>
 					<div class="timeline-end md:mb-10">
 						<time class="font-mono italic">03-2016 au 04-2016</time>
-						<div class="text-lg font-black">UNIVERSITÉ DE BOURGOGNE - Développeur</div>
+						<div class="md:text-lg text-base font-black">UNIVERSITÉ DE BOURGOGNE - Développeur</div>
 						<p>
 							<strong>Ajout de nouvelles fonctionnalité : </strong> Analyse du code existant de l'intranet,
 							ajout de nouvelles fonctionnalités pour répondre aux cahier des charges.
@@ -103,7 +103,7 @@
 					</div>
 					<div class="timeline-start mb-10 md:text-end">
 						<time class="font-mono italic">06-2015 au 07-2015</time>
-						<div class="text-lg font-black">ASCM - Développeur</div>
+						<div class="md:text-lg text-base font-black">ASCM - Développeur</div>
 						The Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness
 						tracking, health-oriented capabilities, and wireless telecommunication, and integrates with
 						iOS and other Apple products and services
@@ -117,7 +117,7 @@
 					</div>
 					<div class="timeline-end md:mb-10">
 						<time class="font-mono italic">01-2014 au 04-2014</time>
-						<div class="text-lg font-black">CEVEDOM - Informaticien</div>
+						<div class="md:text-lg text-base font-black">CEVEDOM - Informaticien</div>
 						<p>
 							<strong>Création d'un site web : </strong> Pour permettre aux enfants de naviguer sereinement
 							sur des sites de confiance et leur donner une première expérience au niveau de l'informatique.

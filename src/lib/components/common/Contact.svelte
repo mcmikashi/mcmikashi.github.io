@@ -115,6 +115,11 @@
 <style lang="postcss">
 	@reference "tailwindcss";
 	:global(input, textarea) {
-		@apply w-sm;
+		@apply w-xs;
 	}
+	@media (min-width: 1024px) { 	
+	:global(input, textarea) {
+		@apply w-sm;
+	} }
+
 </style>

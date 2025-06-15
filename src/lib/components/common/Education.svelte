@@ -4,7 +4,7 @@
 
 <section class="hero bg-base-200" id="education">
 	<div class="hero-content text-center">
-		<div class="max-w-5/6">
+		<div class="lg:max-w-4/6">
 			<h3 class="mb-4 text-2xl font-extrabold">Formation</h3>
 			<ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical m-3">
 				<li>
@@ -13,7 +13,7 @@
 					</div>
 					<div class="timeline-start mb-10 md:text-end">
 						<time class="font-mono italic">2021-2022</time>
-						<div class="text-lg font-black">BACHELOR développeur d'application python</div>
+						<div class="md:text-lg text-base font-black">BACHELOR développeur d'application python</div>
 						<p>Studi(en ligne)</p>
 					</div>
 					<hr />
@@ -25,7 +25,7 @@
 					</div>
 					<div class="timeline-end md:mb-10">
 						<time class="font-mono italic">2014-2016</time>
-						<div class="text-lg font-black">
+						<div class="md:text-lg text-base font-black">
 							BTS SIO (Service Informatique aux Organisations) OPTION SLAM (solutions logicielles et
 							applications métiers
 						</div>
@@ -40,7 +40,7 @@
 					</div>
 					<div class="timeline-start mb-10 md:text-end">
 						<time class="font-mono italic">2011-2014</time>
-						<div class="text-lg font-black">
+						<div class="md:text-lg text-base font-black">
 							BTS SIO (Service Informatique aux Organisations) OPTION SLAM (solutions logicielles et
 							applications métiers)
 						</div>
