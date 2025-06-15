@@ -4,11 +4,13 @@
 	import Education from '$lib/components/common/Education.svelte';
 	import Experience from '$lib/components/common/Experience.svelte';
 	import Hero from '$lib/components/common/Hero.svelte';
+	import Project from '$lib/components/common/Project.svelte';
 </script>
 
 <div class="flex flex-col">
 	<Hero />
 	<About />
+	<Project />
 	<Experience />
 	<Education />
 	<Contact />
